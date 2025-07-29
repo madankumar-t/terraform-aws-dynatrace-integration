@@ -1,0 +1,21 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Action": [
+        "cloudwatch:GetMetricData",
+        "cloudwatch:GetMetricStatistics",
+        "cloudwatch:ListMetrics",
+        "ec2:DescribeInstances",
+        "s3:ListAllMyBuckets",
+        "rds:DescribeDBInstances",
+        "lambda:ListFunctions",
+        "logs:DescribeLogGroups",
+        "sts:GetCallerIdentity"
+      ],
+      "Resource": "*",
+      "Effect": "Allow",
+      "Sid": "VisualEditor0"
+    }
+  ]
+}
